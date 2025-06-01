@@ -1,6 +1,8 @@
-# barracuda_msgs/Waypoints Message
+# barracuda_msgs
 
-## Raw Message Definition
+## barracuda_msgs/Waypoints Message
+
+### Raw Message Definition
 
 ```ros
 std_msgs/Header header
