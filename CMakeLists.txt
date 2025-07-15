@@ -55,10 +55,16 @@ add_message_files(
 ## Generate services in the 'srv' folder
 add_service_files(
 #   FILES
-#   Service1.srv
-#   Service2.srv
   SetThrustZero.srv
-
+  GetFloat.srv
+  GetListParam.srv
+  GetModelProperties.srv
+  GetThrusterConversionFnc.srv
+  GetThrusterEfficiency.srv
+  GetThrusterState.srv
+  SetFloat.srv
+  SetUseGlobablCurrent.srv
+  SetThrusterEfficiency.srv
 )
 
 ## Generate actions in the 'action' folder
