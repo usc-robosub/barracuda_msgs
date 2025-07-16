@@ -65,6 +65,7 @@ add_service_files(
   SetFloat.srv
   SetUseGlobablCurrent.srv
   SetThrusterEfficiency.srv
+  PlanPath.srv
 )
 
 ## Generate actions in the 'action' folder
