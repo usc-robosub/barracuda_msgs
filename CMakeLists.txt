@@ -11,6 +11,7 @@ find_package(catkin REQUIRED COMPONENTS
     std_msgs
     geometry_msgs
     message_generation  # ADDED: Required for message generation
+    #uuv_gazebo_ros_plugins_msgs
 )
 
 ## System dependencies are found with CMake's conventions
@@ -54,17 +55,8 @@ add_message_files(
 
 ## Generate services in the 'srv' folder
 add_service_files(
-#   FILES
+  FILES
   SetThrustZero.srv
-  GetFloat.srv
-  GetListParam.srv
-  GetModelProperties.srv
-  GetThrusterConversionFnc.srv
-  GetThrusterEfficiency.srv
-  GetThrusterState.srv
-  SetFloat.srv
-  SetUseGlobablCurrent.srv
-  SetThrusterEfficiency.srv
   PlanPath.srv
 )
 
@@ -114,7 +106,7 @@ generate_messages(
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES barracuda_msgs
-   CATKIN_DEPENDS std_msgs geometry_msgs message_runtime  # ADDED: Required dependencies
+#   CATKIN_DEPENDS std_msgs geometry_msgs message_runtime  # ADDED: Required dependencies
 #  DEPENDS system_lib
 )
 
