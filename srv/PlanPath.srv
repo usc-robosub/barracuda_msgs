@@ -1,0 +1,4 @@
+geometry_msgs/PoseStamped goal_pose
+---
+barracuda_msgs/Waypoints waypoints
+

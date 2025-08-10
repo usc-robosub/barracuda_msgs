@@ -56,6 +56,7 @@ add_message_files(
 add_service_files(
   FILES
   CheckCollision.srv
+  PlanPath.srv
 )
 
 ## Generate actions in the 'action' folder
